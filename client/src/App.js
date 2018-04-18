@@ -9,25 +9,25 @@ import Forum from "./pages/Forum";
 import Team from "./pages/Team";
 
 const App = () => (
-    <Router>
-        <div>
-            <Nav />
+
+    <div>
+        <Nav />
+        <Router>
             <Switch>
                 <Route exact path="/" component={Home} />
 
                 <Route exact path="/documentation" component={Docs} />
 
                 <Route exact path="/templates" component={Templates} />
-                <Route exact path="/templates/:id" component={Templates} />
 
                 <Route exact path="/forum" component={Forum} />
-                <Route exact path="/forum/thread/:id" component={Forum} />
 
                 <Route exact path="/team" component={Team} />
             </Switch>
-            <Footer />
-        </div>
-    </Router>
+        </Router>
+        <Footer />
+    </div>
+
 );
 
 export default App;
