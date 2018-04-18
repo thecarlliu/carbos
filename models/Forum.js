@@ -1,10 +1,13 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const forumSchema = new Schema({
-    //TODO: Creating the schema means setting all the appropriate keys to the input data types
+const threadSchema = new Schema({
+    title: { type: String, required: true },
+    description: { type: String, required: true },
+    posts: { type: Array, required: true },
+    date: { type: Date, default: Date.now }
 });
 
-const Forum = mongoose.model("Forum", forumSchema);
+const Threads = mongoose.model("Forum", threadSchema);
 
-module.exports = Forum;
+module.exports = Threads;

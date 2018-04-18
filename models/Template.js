@@ -1,10 +1,13 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const templateSchema = new Schema({
-    //TODO: Creating the schema means setting all the appropriate keys to the input data types
+const categoriesSchema = new Schema({
+    title: { type: String, required: true },
+    description: { type: String, required: true },
+    image: { type: String, required: true },
+    templates: { type: Array, required: true },
 });
 
-const Template = mongoose.model("Template", templateSchema);
+const categories = mongoose.model("Template", categoriesSchema);
 
-module.exports = Template;
+module.exports = categories;

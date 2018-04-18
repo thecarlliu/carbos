@@ -2,8 +2,6 @@ const mongoose = require("mongoose");
 const db = require("../models");
 mongoose.Promise = global.Promise;
 
-// This file empties the Forum collection and inserts the discussions below
-
 mongoose.connect(
     process.env.MONGODB_URI || "mongodb://localhost/carbos",
     {
@@ -12,10 +10,70 @@ mongoose.connect(
 );
 
 const forumSeed = [
-    //TODO: Create the appropriate seed content here
+    {
+        title: "News",
+        description: "Carbos updates.",
+        posts: [
+            {
+                text: "seed-test",
+                user: "Admin",
+                date: Date.now
+            }
+        ],
+        date: Date.now
+    },
+    {
+        title: "General Discussion",
+        description: "Discuss Carbos.",
+        posts: [
+            {
+                text: "seed-test",
+                user: "Admin",
+                date: Date.now
+            }
+        ],
+        date: Date.now
+    },
+    {
+        title: "Technical Support",
+        description: "For reporting technical issues.",
+        posts: [
+            {
+                text: "seed-test",
+                user: "Admin",
+                date: Date.now
+            }
+        ],
+        date: Date.now
+    }
 ];
 const templateSeed = [
-    //TODO: Create the appropriate seed content here
+    {
+        title: "Travel",
+        description: "Reel in customers with user-friendly interfaces and eye-catching brochures.",
+        image: "https://via.placeholder.com/200x200",
+        templates: [
+            {
+                title: "travel1",
+                image: "https://via.placeholder.com/200x200",
+                sourceURL: "https://github.com/thecarlliu/travel1-source",
+                demoURL: "https://github.com/thecarlliu/travel1-demo"
+            }
+        ]
+    },
+    {
+        title: "Art",
+        description: "Amaze your audience with aesthetic galleries.",
+        image: "https://via.placeholder.com/200x200",
+        templates: [
+            {
+                title: "art1",
+                image: "https://via.placeholder.com/200x200",
+                sourceURL: "https://github.com/thecarlliu/art1-source",
+                demoURL: "https://github.com/thecarlliu/art1-demo"
+            }
+        ]
+    }
 ];
 const userSeed = [
     //TODO: Create the appropriate seed content here

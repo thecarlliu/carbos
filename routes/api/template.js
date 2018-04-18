@@ -5,9 +5,4 @@ const templateController = require("../../controllers/templateController");
 router.route("/")
     .get(templateController.findAll);
 
-// Matches with "/api/template/:id"
-router
-    .route("/:id")
-    .get(templateController.findById);
-
 module.exports = router;

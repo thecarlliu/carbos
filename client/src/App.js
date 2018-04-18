@@ -1,7 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer"
 import Home from "./pages/Home";
+import Docs from "./pages/Docs";
 import Templates from "./pages/Templates";
 import Forum from "./pages/Forum";
 import Team from "./pages/Team";
@@ -13,14 +15,17 @@ const App = () => (
             <Switch>
                 <Route exact path="/" component={Home} />
 
+                <Route exact path="/documentation" component={Docs} />
+
                 <Route exact path="/templates" component={Templates} />
                 <Route exact path="/templates/:id" component={Templates} />
 
                 <Route exact path="/forum" component={Forum} />
                 <Route exact path="/forum/thread/:id" component={Forum} />
 
-                <Route exact path="/meettheteam" component={Team} />
+                <Route exact path="/team" component={Team} />
             </Switch>
+            <Footer />
         </div>
     </Router>
 );
