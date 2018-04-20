@@ -6,7 +6,7 @@
 
 import React from 'react';
 
-const TemplateCard = (props) => {
+const Template = (props) => {
   
 render(){
 	return (
@@ -27,4 +27,4 @@ render(){
 	}
 }
 
-export default TemplateCard;
+export default Template;
