@@ -49,30 +49,12 @@ const forumSeed = [
 ];
 const templateSeed = [
     {
-        title: "Travel",
-        description: "Reel in customers with user-friendly interfaces and eye-catching brochures.",
+        id: 1,
+        title: "Farfalle",
+        description: "Amaze viewers with a clean and hip gallery.",
         image: "https://via.placeholder.com/200x200",
-        templates: [
-            {
-                title: "travel1",
-                image: "https://via.placeholder.com/200x200",
-                sourceURL: "https://github.com/thecarlliu/travel1-source",
-                demoURL: "https://github.com/thecarlliu/travel1-demo"
-            }
-        ]
-    },
-    {
-        title: "Art",
-        description: "Amaze your audience with aesthetic galleries.",
-        image: "https://via.placeholder.com/200x200",
-        templates: [
-            {
-                title: "art1",
-                image: "https://via.placeholder.com/200x200",
-                sourceURL: "https://github.com/thecarlliu/art1-source",
-                demoURL: "https://github.com/thecarlliu/art1-demo"
-            }
-        ]
+        sourceURL: "https://github.com/thecarlliu/art1-source",
+        demoURL: "https://github.com/thecarlliu/art1-demo"
     }
 ];
 const userSeed = [

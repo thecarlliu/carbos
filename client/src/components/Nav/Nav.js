@@ -11,7 +11,7 @@ const Nav = () => (
 				<li className="menu-text">Carbos Logo</li>
 				<ul className="dropdown menu expanded button-group">
 					<li className="cell medium-2 nav-btn"><a href="#">Docs</a></li>
-					<li className="cell medium-2 nav-btn"><a href="#">Templates</a></li>
+                    <li className="cell medium-2 nav-btn"><a href="#">Templates</a></li>
 					<li className="cell medium-2 nav-btn"><a href="#">Forum</a></li>
 					<li className="cell medium-2 nav-btn"><a href="#">Team</a></li>
 				</ul>

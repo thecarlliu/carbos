@@ -10,23 +10,25 @@ import Team from "./pages/Team";
 
 const App = () => (
 
-    <div>
-        <Nav />
-        <Router>
-            <Switch>
-                <Route exact path="/" component={Home} />
+    <Router>
+        <div>
+            <Nav />
 
-                <Route exact path="/documentation" component={Docs} />
+                <Switch>
+                    <Route exact path="/" component={Home} />
 
-                <Route exact path="/templates" component={Templates} />
+                    <Route exact path="/documentation" component={Docs} />
 
-                <Route exact path="/forum" component={Forum} />
+                    <Route exact path="/templates" component={Templates} />
 
-                <Route exact path="/team" component={Team} />
-            </Switch>
-        </Router>
-        <Footer />
-    </div>
+                    <Route exact path="/forum" component={Forum} />
+
+                    <Route exact path="/team" component={Team} />
+                </Switch>
+
+            <Footer />
+        </div>
+    </Router>
 
 );
 

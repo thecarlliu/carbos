@@ -1,8 +1,30 @@
-//TODO: Create Templates Page
+import "./Templates.css"
+import Template from "../../components/Template";
+import api from "../../utils/API";
 
-//Import Template component
+const templates = api.getTemplates();
 
-//Make a Card for each category found in db.Template
-//Each Card should have the appropriate image, title, and description
-//When clicked, the card should either expand, or a modal is triggered to display all templates found within that category.
-//Each template should be displayed via our Template component, passing in the appropriate props.
+const Templates = () => (
+    <div className="featured-image-block-grid">
+        <div className="featured-image-block-grid-header small-10 medium-8 large-7 columns text-center">
+            <h2>Browse our collection of web templates</h2>
+            <p>We hope you like pasta</p>
+        </div>
+        {
+            templates.map((template) => (
+                <Template
+                    id = {template.id}
+                    key = {template.id}
+                    title = {template.title}
+                    description = {template.description}
+                    image = {template.image}
+                    sourceURL = {template.sourceURL}
+                    demoURL = {template.demoURL}
+                />
+            ))
+        }
+    </div>
+);
+
+export default Templates;
+

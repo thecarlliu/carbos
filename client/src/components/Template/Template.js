@@ -5,17 +5,15 @@ import React from "react";
 import "./Template.css"
 
 const Template = (props) => (
-		<div className="card-user-profile">
-			<img className="card-user-profile-img" src={props.image} alt={props.title} />
-			<div className="card-user-profile-content card-section">
-				<p className="card-user-profile-name">{props.title}</p>
-				<p className="card-user-profile-info">{props.description}</p>
-			</div>
-			<div className="card-user-profile-actions">
-				<a href={props.sourceURL} className="card-user-profile-button button hollow">Source</a>
-				<a href={props.demoURL} className="card-user-profile-button button hollow secondary">Demo</a>
-			</div>
-		</div>
+    <div className="row large-up-4 small-up-2">
+        <div className="featured-image-block column">
+            <img src={props.image} alt={props.title}/>
+            <p className="text-center featured-image-block-title">{props.title}</p>
+            <p>{props.description}</p>
+            <a className="button button-rounded-hover" href={props.sourceURL}>Source</a>
+            <a className="button button-rounded-hover" href={props.demoURL}>Demo</a>
+        </div>
+    </div>
 );
 
 export default Template;
