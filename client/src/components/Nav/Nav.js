@@ -6,15 +6,10 @@ import "./Nav.css"
 
 const Nav = () => (
 	<div>
-        <div className="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-            <button className="menu-icon" type="button" data-toggle="responsive-menu"></button>
-            <div className="title-bar-title"><img src="https://via.placeholder.com/50x50" alt="logo"/>Carbos</div>
-        </div>
-
         <div className="top-bar" id="responsive-menu">
             <div className="top-bar-left">
                 <ul className="dropdown menu" data-dropdown-menu>
-                    <li className="menu-text">Site Title</li>
+                    <li className="menu-text"><img src="https://via.placeholder.com/20x20" alt="logo"/>  Carbos</li>
                     <li><a href="/docs">Docs</a></li>
                     <li><a href="/templates">Templates</a></li>
                     <li><a href="/forum">Forum</a></li>
@@ -23,7 +18,7 @@ const Nav = () => (
             </div>
             <div className="top-bar-right">
                 <ul className="menu">
-                    <li><input type="search" placeholder="Search"/></li>
+                    <li><input type="search" placeholder="Search Docs"/></li>
                     <li><button type="button" className="button">Search</button></li>
                 </ul>
             </div>
