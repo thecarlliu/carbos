@@ -1,7 +1,10 @@
 const router = require("express").Router();
-const forumRoutes = require("./forum");
+const generalRoute = require("./general");
+const supportRoute = require("./support");
+
 
 //Routes
-router.use("/forum", forumRoutes);
+router.use("/forum/general", generalRoute);
+router.use("/forum/support", supportRoute);
 
 module.exports = router;

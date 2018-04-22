@@ -9,48 +9,39 @@ mongoose.connect(
     }
 );
 
-const forumSeed = [
+const generalSeed = [
     {
-        title: "News",
-        description: "Carbos updates.",
-        posts: [
-            {
-                text: "seed-test",
-                user: "Admin",
-                date: Date.now
-            }
-        ],
-        date: Date.now
-    },
+        id: 1,
+        key: 1,
+        text: "Test",
+        user: "Admin",
+        date: "Today"
+    }
+];
+const supportSeed = [
     {
-        title: "General Discussion",
-        description: "Discuss Carbos.",
-        posts: [
-            {
-                text: "seed-test",
-                user: "Admin",
-                date: Date.now
-            }
-        ],
-        date: Date.now
-    },
-    {
-        title: "Technical Support",
-        description: "For reporting technical issues.",
-        posts: [
-            {
-                text: "seed-test",
-                user: "Admin",
-                date: Date.now
-            }
-        ],
-        date: Date.now
+        id: 1,
+        key: 1,
+        text: "Test",
+        user: "Admin",
+        date: "Today"
     }
 ];
 
-db.Forum
+db.General
     .remove({})
-    .then(() => db.Forum.collection.insertMany(forumSeed))
+    .then(() => db.General.collection.insertMany(generalSeed))
+    .then(data => {
+        console.log(data.insertedIds.length + " records inserted!");
+        process.exit(0);
+    })
+    .catch(err => {
+        console.error(err);
+        process.exit(1);
+    });
+db.Support
+    .remove({})
+    .then(() => db.Support.collection.insertMany(supportSeed))
     .then(data => {
         console.log(data.insertedIds.length + " records inserted!");
         process.exit(0);

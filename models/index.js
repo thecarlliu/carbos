@@ -1,3 +1,4 @@
 module.exports = {
-    Forum: require("./Forum")
+    General: require("./General"),
+    Support: require("./Support")
 };
