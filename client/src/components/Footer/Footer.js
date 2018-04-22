@@ -10,10 +10,10 @@ const Footer = () => (
 			  <div className="small-6 large-4 cell" id="footer-one">
                   <p className="lead">Site Navigation</p>
                   <ul className="menu vertical">
-                      <li><a href="#">Templates</a></li>
-                      <li><a href="#">Forum</a></li>
-                      <li><a href="#">Documentation</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="/docs">Documentation</a></li>
+                      <li><a href="/templates">Templates</a></li>
+                      <li><a href="/forum">Forum</a></li>
+                      <li><a href="/team">Team</a></li>
                   </ul>
               </div>
               <div className="small-6 large-4 cell meet-team">
@@ -22,45 +22,36 @@ const Footer = () => (
                       <li>Kevin Hinkel</li>
                   </ul>
                   <ul className="menu">
-                      <li><a href="#">Github</a></li>
-                      <li><a href="#">LinkedIn</a></li>
+                      <li><a href="">Github</a></li>
+                      <li><a href="">LinkedIn</a></li>
                   </ul>
                   <ul className="menu vertical">
                       <li>Derek Jacobson</li>
                   </ul>
                   <ul className="menu">
-                      <li><a href="#">Github</a></li>
-                      <li><a href="#">LinkedIn</a></li>
+                      <li><a href="">Github</a></li>
+                      <li><a href="">LinkedIn</a></li>
                   </ul>
                   <ul className="menu vertical">
                       <li>Carl Liu</li>
                   </ul>
                   <ul className="menu">
-                      <li><a href="#">Github</a></li>
-                      <li><a href="#">LinkedIn</a></li>
+                      <li><a href="">Github</a></li>
+                      <li><a href="">LinkedIn</a></li>
                   </ul>
                   <ul className="menu vertical">
                       <li>Sandy McElfresh</li>
                   </ul>
                   <ul className ="menu">
-                      <li><a href="#">Github</a></li>
-                      <li><a href="#">LinkedIn</a></li>
+                      <li><a href="">Github</a></li>
+                      <li><a href="">LinkedIn</a></li>
                   </ul>
                   <ul className="menu vertical">
                       <li>Paul Prokosch</li>
                   </ul>
                   <ul className="menu">
-                      <li><a href="#">Github</a></li>
-                      <li><a href="#">LinkedIn</a></li>
-                  </ul>
-              </div>
-              <div className="small-6 large-4 cell">
-                  <p className="lead">Additional Resources</p>
-                  <ul className="menu vertical">
-                      <li><a href="#">One</a></li>
-                      <li><a href="#">Two</a></li>
-                      <li><a href="#">Three</a></li>
-                      <li><a href="#">Four</a></li>
+                      <li><a href="">Github</a></li>
+                      <li><a href="">LinkedIn</a></li>
                   </ul>
               </div>
               <div className="medium-12 cell">
