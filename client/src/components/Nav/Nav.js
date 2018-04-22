@@ -7,7 +7,7 @@ import "./Nav.css"
 const Nav = () => (
 	<div>
         <div className="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-            <button className="menu-icon" type="button" data-toggle></button>
+            <button className="menu-icon" type="button" data-toggle/>
             <div className="title-bar-title">Menu</div>
         </div>
         <div className="top-bar" id="main-menu">
