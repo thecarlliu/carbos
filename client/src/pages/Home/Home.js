@@ -11,6 +11,14 @@ import "./Home.css";
 
 const Home = () => (
     <div>
-
+        <div className="marketing-site-hero">
+            <div className="marketing-site-hero-content">
+                <h1>Welcome to Carbos</h1>
+                <p className="subheader">Striving for aesthetic and immersive interfaces.</p>
+                <a href="/templates" className="round button">learn more</a>
+            </div>
+        </div>
     </div>
 );
+
+export default Home;
