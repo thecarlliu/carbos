@@ -47,47 +47,10 @@ const forumSeed = [
         date: Date.now
     }
 ];
-const templateSeed = [
-    {
-        id: 1,
-        title: "Farfalle",
-        description: "Amaze viewers with a clean and hip gallery.",
-        image: "https://via.placeholder.com/200x200",
-        sourceURL: "https://github.com/thecarlliu/art1-source",
-        demoURL: "https://github.com/thecarlliu/art1-demo"
-    }
-];
-const userSeed = [
-    //TODO: Create the appropriate seed content here
-];
 
 db.Forum
     .remove({})
     .then(() => db.Forum.collection.insertMany(forumSeed))
-    .then(data => {
-        console.log(data.insertedIds.length + " records inserted!");
-        process.exit(0);
-    })
-    .catch(err => {
-        console.error(err);
-        process.exit(1);
-    });
-
-db.Template
-    .remove({})
-    .then(() => db.Forum.collection.insertMany(templateSeed))
-    .then(data => {
-        console.log(data.insertedIds.length + " records inserted!");
-        process.exit(0);
-    })
-    .catch(err => {
-        console.error(err);
-        process.exit(1);
-    });
-
-db.User
-    .remove({})
-    .then(() => db.Forum.collection.insertMany(userSeed))
     .then(data => {
         console.log(data.insertedIds.length + " records inserted!");
         process.exit(0);

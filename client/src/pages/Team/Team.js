@@ -6,6 +6,7 @@ import "./Team.css";
 
 const teamMembers = [
     {
+        id: 1,
         name: "Carl Liu",
         image: "https://via.placeholder.com/100x100",
         role: "Project Lead",

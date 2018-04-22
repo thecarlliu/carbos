@@ -1,10 +1,6 @@
 import axios from "axios";
 
 export default {
-    //Gets information from /api/templates
-    getTemplates: function() {
-        return axios.get("/api/templates");
-    },
     // Gets all threads
     getForum: function() {
         return axios.get("/api/forum");
