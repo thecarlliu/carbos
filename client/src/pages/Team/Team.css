@@ -1,95 +1,66 @@
-.blogpost-footer-actions {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-size: 1.8125rem;
-    border-bottom: 1px solid #cacaca;
+.team-page {
+    padding-bottom: 50px;
+}
+
+.team-header {
+    padding: 5%;
+}
+
+.testimonial-block-vertical {
+    padding: 2%;
+}
+
+.testimonial-block-vertical-quote {
+    background: rgba(23, 121, 186, 0.25);
     padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.875rem;
+    position: relative;
 }
 
-@media print, screen and (min-width: 40em) {
-    .blogpost-footer-actions {
-        padding: 1rem 0;
-    }
+.testimonial-block-vertical-quote p {
+    margin-bottom: 0;
 }
 
-.blogpost-footer-actions-left a,
-.blogpost-footer-actions-left button,
-.blogpost-footer-actions-right a,
-.blogpost-footer-actions-right button {
-    color: #0a0a0a;
+.testimonial-block-vertical-quote::after {
+    content: '';
+    bottom: -1.25rem;
+    left: 2.25rem;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 1.25rem 1.125rem 0 1.125rem;
+    border-color: rgba(23, 121, 186, 0.25) transparent transparent transparent;
+    position: absolute;
 }
 
-.blogpost-footer-actions-left button:hover,
-.blogpost-footer-actions-right button:hover {
-    cursor: pointer;
-}
-
-.blogpost-footer-actions-left a + a,
-.blogpost-footer-actions-left button + button,
-.blogpost-footer-actions-right a + a,
-.blogpost-footer-actions-right button + button {
-    margin-left: 0.75rem;
-}
-
-.blogpost-footer-author-section {
-    padding: 1.75rem 1rem;
+.testimonial-block-vertical-person {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-}
-
-.blogpost-footer-author-section .button {
-    border-radius: 5000px;
-    padding: 0.875rem 1.75rem;
-}
-
-@media print, screen and (min-width: 40em) {
-    .blogpost-footer-author-section {
-        padding: 1.75rem 0;
-    }
-}
-
-.blogpost-footer-author {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    margin-left: 1.65rem;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-flex: 1 0 0;
-    -ms-flex: 1 0 0px;
-    flex: 1 0 0;
 }
 
-.blogpost-footer-author .avatar {
+.testimonial-block-vertical-avatar {
     border-radius: 50%;
-    height: 3.75rem;
-    width: 3.75rem;
+    width: 100px;
+    height: 100px;
 }
 
-.blogpost-footer-author .author {
-    color: #0a0a0a;
-    margin-left: 0.75rem;
-    font-size: 1.125rem;
-    font-weight: 700;
+.testimonial-block-vertical-name {
+    text-transform: uppercase;
+    font-weight: 600;
     margin-bottom: 0;
+    margin-left: 0.65rem;
 }
 
-.blogpost-footer-author .bio {
-    margin-left: 0.75rem;
-    margin-bottom: 0;
+.testimonial-block-vertical-info {
+    text-transform: uppercase;
+    font-size: 14px;
     color: #8a8a8a;
+    margin-bottom: 0;
+    margin-left: 0.65rem;
 }
