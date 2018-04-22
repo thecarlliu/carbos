@@ -1,3 +1,6 @@
+//TODO: Update Templates
+//Add style
+
 import "./Templates.css"
 import Template from "../../components/Template";
 import api from "../../utils/API";
