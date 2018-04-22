@@ -9,7 +9,11 @@ const Nav = () => (
         <div className="top-bar" id="responsive-menu">
             <div className="top-bar-left">
                 <ul className="dropdown menu" data-dropdown-menu>
-                    <li className="menu-text"><img src="https://via.placeholder.com/20x20" alt="logo"/>  Carbos</li>
+                    <li className="menu-text">
+                        <a href="/">
+                            <img src="https://via.placeholder.com/20x20" alt="logo"/>Carbos
+                        </a>
+                    </li>
                     <li><a href="/docs">Docs</a></li>
                     <li><a href="/templates">Templates</a></li>
                     <li><a href="/forum">Forum</a></li>
