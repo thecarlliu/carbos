@@ -1,69 +1,95 @@
+.blogpost-footer-actions {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 1.8125rem;
+    border-bottom: 1px solid #cacaca;
+    padding: 1rem;
+}
 
-.card-user-container {
-    margin-bottom: 1rem;
-    background-color: #fefefe;
+@media print, screen and (min-width: 40em) {
+    .blogpost-footer-actions {
+        padding: 1rem 0;
+    }
+}
+
+.blogpost-footer-actions-left a,
+.blogpost-footer-actions-left button,
+.blogpost-footer-actions-right a,
+.blogpost-footer-actions-right button {
     color: #0a0a0a;
-    overflow: hidden;
-    padding: 0;
-    border-radius: 0;
 }
 
-.card-user-container .card-user-avatar .user-image {
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-    width: 11.875rem;
-    height: 11.875rem;
-    padding: 0.9375rem;
-}
-
-.card-user-container .card-user-avatar .user-image:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.card-user-container .card-user-bio {
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-user-container .card-user-bio .location {
-    display: inline-block;
-    margin: 0 0.9375rem;
-    color: #767676;
-    font-size: 0.875rem;
-}
-
-.card-user-container .card-user-bio .location-icon,
-.card-user-container .card-user-bio .location-text {
-    display: inline-block;
-    padding: 0 0.3125rem;
-}
-
-.card-user-container .card-user-social {
-    background: #e6e6e6;
-    padding: 1rem;
-    text-align: center;
-}
-
-.card-user-container .card-user-social ul {
-    display: inline-block;
-}
-
-.card-user-container .card-user-social ul li {
-    margin: 0 10px;
-    font-size: 1.2em;
+.blogpost-footer-actions-left button:hover,
+.blogpost-footer-actions-right button:hover {
     cursor: pointer;
 }
 
-.card-user-container .card-user-social ul li:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+.blogpost-footer-actions-left a + a,
+.blogpost-footer-actions-left button + button,
+.blogpost-footer-actions-right a + a,
+.blogpost-footer-actions-right button + button {
+    margin-left: 0.75rem;
 }
 
-.card-user-container .card-user-button {
-    text-align: center;
-    padding: 1rem;
+.blogpost-footer-author-section {
+    padding: 1.75rem 1rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.blogpost-footer-author-section .button {
+    border-radius: 5000px;
+    padding: 0.875rem 1.75rem;
+}
+
+@media print, screen and (min-width: 40em) {
+    .blogpost-footer-author-section {
+        padding: 1.75rem 0;
+    }
+}
+
+.blogpost-footer-author {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0;
+}
+
+.blogpost-footer-author .avatar {
+    border-radius: 50%;
+    height: 3.75rem;
+    width: 3.75rem;
+}
+
+.blogpost-footer-author .author {
+    color: #0a0a0a;
+    margin-left: 0.75rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.blogpost-footer-author .bio {
+    margin-left: 0.75rem;
+    margin-bottom: 0;
+    color: #8a8a8a;
 }
