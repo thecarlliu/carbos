@@ -52,7 +52,7 @@ const Home = () => (
         <div className="marketing-site-hero cell small-12 medium-12">
             <div className="marketing-site-hero-content">
                 <h1>Welcome to Carbos</h1>
-                <p className="subheader">Striving for aesthetic and immersive interfaces.</p>
+                <p className="subheader">Ready to use, full-stack web templates.</p>
                 <a href="/#" className="round button">learn more</a>
             </div>
         </div>
