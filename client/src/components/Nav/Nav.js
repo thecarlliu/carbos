@@ -5,11 +5,11 @@ import React from "react";
 import "./Nav.css"
 
 const Nav = () => (
-	<div>
+	<div className="nav">
         <nav className="top-bar topbar-responsive">
             <div className="top-bar-title">
     <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
-      <button className="menu-icon" type="button" data-toggle="topbar-responsive"/>
+        <button className="menu-icon" type="button" data-toggle="topbar-responsive"/>
     </span>
                 <a className="topbar-responsive-logo" href="/"><strong>Carbos</strong></a>
             </div>

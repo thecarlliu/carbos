@@ -3,46 +3,53 @@ import "./Home.css";
 
 const features = [
     {
+        key: 1,
         name: "Aesthetic",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-        icon: "fi fi-puzzle"
+        description: "Our team looks at the most popular web designs and derives custom web templates that emphasize clean user interfaces and smooth functionality.",
+        icon: "fi fi-pencil"
     },
     {
-        name: "Aesthetic",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-        icon: "fi fi-puzzle"
+        key: 2,
+        name: "Responsive",
+        description: "All Carbos templates are mobile-first, meaning that we design the layout with responsiveness as a priority.",
+        icon: "fi fi-mobile"
     },
     {
-        name: "Aesthetic",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-        icon: "fi fi-puzzle"
+        key: 3,
+        name: "Customizable",
+        description: "Carbos templates are created with customization and reusability in mind. Each template comes with documentation, open source code, and a demo site where you can find the template in action.",
+        icon: "fi fi-widget"
     }
 ];
 
 const techStack = [
     {
+        key: 1,
         name:"MongoDB",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-        image:"https://via.placeholder.com/200x200",
-        link:"https://via.placeholder.com/200x200"
+        description:"MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.",
+        image:"../src/images/mongoDB.png",
+        link:"https://google.com"
     },
     {
+        key: 2,
         name:"Express",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-        image:"https://via.placeholder.com/200x200",
-        link:"https://via.placeholder.com/200x200"
+        description:"In computing, React is a JavaScript library for building user interfaces. It is maintained by Facebook, Instagram and a community of individual developers and corporations.",
+        image:"../../images/express.png",
+        link:"https://google.com"
     },
     {
+        key: 3,
         name:"React",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-        image:"https://via.placeholder.com/200x200",
-        link:"https://via.placeholder.com/200x200"
+        description:"In computing, React is a JavaScript library for building user interfaces. It is maintained by Facebook, Instagram and a community of individual developers and corporations.",
+        image:"../../images/react.png",
+        link:"https://google.com"
     },
     {
+        key: 4,
         name:"Node",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.",
-        image:"https://via.placeholder.com/200x200",
-        link:"https://via.placeholder.com/200x200"
+        description:"Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code server-side.",
+        image:"../../images/node.png",
+        link:"https://google.com"
     }
 ];
 
@@ -76,7 +83,7 @@ const Home = () => (
             {
                 techStack.map((tech) => (
                     <div className="tech-section cell small-12 medium-6">
-                        <img src={tech.image} alt={tech.name} aria-hidden="true"/>
+                        <img src={tech.image} alt={tech.name} aria-hidden="true" width="200px" height="auto"/>
                         <a href={tech.link}><h4 className="marketing-site-features-title">{tech.name}</h4></a>
                         <p className="marketing-site-features-desc">{tech.description}</p>
 

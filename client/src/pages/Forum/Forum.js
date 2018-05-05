@@ -17,6 +17,7 @@ class Forum extends React.Component {
     componentDidMount() {
         this.loadGeneral();
         this.loadSupport();
+        console.log(this.state.general);
     }
 
     loadGeneral = () => {
@@ -60,7 +61,8 @@ class Forum extends React.Component {
                             </a>
                             <div className="accordion-content" data-tab-content>
                                 {
-                                    this.state.general.map((post) => (
+                                    this.state.general.length>0 &&
+                                        this.state.general.map((post) => (
                                         <Post
                                             id={post._id}
                                             key={post._id}
@@ -86,6 +88,7 @@ class Forum extends React.Component {
                                 here</h3></a>
                             <div className="accordion-content" data-tab-content>
                                 {
+                                    this.state.support.length > 0 &&
                                     this.state.support.map((post) => (
                                         <Post
                                             id={post._id}

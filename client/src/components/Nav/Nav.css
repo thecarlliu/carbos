@@ -1,15 +1,15 @@
 .topbar-responsive {
-    background: #2c3840;
+    background: #56c9ed;
     padding: 1rem 1.5rem;
 }
 
 .topbar-responsive .topbar-responsive-logo {
-    color: #fefefe;
+    color: #9d5929;
     vertical-align: middle;
 }
 
 .topbar-responsive .menu {
-    background: #2c3840;
+    background: #56c9ed;
 }
 
 .topbar-responsive .menu li:last-of-type {
@@ -17,12 +17,12 @@
 }
 
 .topbar-responsive .menu a {
-    color: #fefefe;
+    color: #9d5929;
     transition: color 0.15s ease-in;
 }
 
 .topbar-responsive .menu a:hover {
-    color: #c6d1d8;
+    color: #9d5929;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -32,15 +32,15 @@
 }
 
 .topbar-responsive .menu .topbar-responsive-button {
-    color: #fefefe;
-    border-color: #fefefe;
+    color: #9d5929;
+    border-color: #56c9ed;
     border-radius: 5000px;
     transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
 
 .topbar-responsive .menu .topbar-responsive-button:hover {
-    color: #c6d1d8;
-    border-color: #c6d1d8;
+    color: #9d5929;
+    border-color: #56c9ed;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -61,7 +61,7 @@
     .topbar-responsive .top-bar-title span {
         position: absolute;
         right: 0;
-        border: 1px solid #fefefe;
+        border: 1px solid #56c9ed;
         border-radius: 5px;
         padding: 0.25rem 0.45rem;
         top: 50%;
