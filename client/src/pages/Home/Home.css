@@ -113,3 +113,8 @@
     margin-bottom: 2rem;
     text-align: center;
 }
+
+.tech-icon {
+    width: auto;
+    height: 200px;
+}

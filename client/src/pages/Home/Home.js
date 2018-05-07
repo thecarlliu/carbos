@@ -1,6 +1,11 @@
 import React from "react";
 import "./Home.css";
 
+const mongoDBIcon = require("../../images/mongoDB.png");
+const expressIcon = require("../../images/express.png");
+const reactIcon = require("../../images/react.png");
+const nodeIcon = require("../../images/node.png");
+
 const features = [
     {
         key: 1,
@@ -27,28 +32,28 @@ const techStack = [
         key: 1,
         name:"MongoDB",
         description:"MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.",
-        image:"../src/images/mongoDB.png",
+        image: mongoDBIcon,
         link:"https://google.com"
     },
     {
         key: 2,
         name:"Express",
         description:"In computing, React is a JavaScript library for building user interfaces. It is maintained by Facebook, Instagram and a community of individual developers and corporations.",
-        image:"../../images/express.png",
+        image: expressIcon,
         link:"https://google.com"
     },
     {
         key: 3,
         name:"React",
         description:"In computing, React is a JavaScript library for building user interfaces. It is maintained by Facebook, Instagram and a community of individual developers and corporations.",
-        image:"../../images/react.png",
+        image: reactIcon,
         link:"https://google.com"
     },
     {
         key: 4,
         name:"Node",
         description:"Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code server-side.",
-        image:"../../images/node.png",
+        image: nodeIcon,
         link:"https://google.com"
     }
 ];
@@ -60,7 +65,7 @@ const Home = () => (
             <div className="marketing-site-hero-content">
                 <h1>Welcome to Carbos</h1>
                 <p className="subheader">Ready to use, full-stack web templates.</p>
-                <a href="/#" className="round button">learn more</a>
+                <a href="/docs" className="round button">learn more</a>
             </div>
         </div>
 {/*features*/}
@@ -83,7 +88,7 @@ const Home = () => (
             {
                 techStack.map((tech) => (
                     <div className="tech-section cell small-12 medium-6">
-                        <img src={tech.image} alt={tech.name} aria-hidden="true" width="200px" height="auto"/>
+                        <img className="tech-icon" src={tech.image} alt={tech.name} aria-hidden="true" />
                         <a href={tech.link}><h4 className="marketing-site-features-title">{tech.name}</h4></a>
                         <p className="marketing-site-features-desc">{tech.description}</p>
 
