@@ -5,6 +5,8 @@ import React from "react"
 import "./Templates.css"
 import Template from "../../components/Template";
 
+const orzoIcon = require("../../images/orzoIcon.png");
+
 const templates = [
     {
         id: 1,
@@ -20,7 +22,7 @@ const templates = [
         title: "Orzo",
         description: "Simple and playful",
         stack: "Front End",
-        image: "https://via.placeholder.com/200x200",
+        image: orzoIcon,
         sourceURL: "https://github.com/thecarlliu/art1-source",
         demoURL: "https://github.com/thecarlliu/art1-demo"
     },
