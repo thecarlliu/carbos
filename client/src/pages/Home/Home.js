@@ -84,7 +84,7 @@ const Home = () => (
 {/*techstack*/}
         <div className="marketing-site-features grid-x small-12 medium-12">
             <h2 className="marketing-site-features-headline cell small-12 medium-12">Our Technology Stack</h2>
-            <p className="marketing-site-features-subheadline subheader cell small-12 medium-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit quaerat eos words and phrases.</p>
+            <p className="marketing-site-features-subheadline subheader cell small-12 medium-12">Best for creating isomorphic and interactive web applications, MERN is gaining ground as the web developer's favorite technology stack.</p>
             {
                 techStack.map((tech) => (
                     <div className="tech-section cell small-12 medium-6">
