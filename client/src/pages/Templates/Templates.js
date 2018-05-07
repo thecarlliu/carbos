@@ -9,7 +9,44 @@ const templates = [
     {
         id: 1,
         title: "Farfalle",
+        description: "Clean and hip",
+        stack: "Full Stack",
+        image: "https://via.placeholder.com/200x200",
+        sourceURL: "https://github.com/thecarlliu/art1-source",
+        demoURL: "https://github.com/thecarlliu/art1-demo"
+    },
+    {
+        id: 1,
+        title: "Orzo",
+        description: "Simple and playful",
+        stack: "Front End",
+        image: "https://via.placeholder.com/200x200",
+        sourceURL: "https://github.com/thecarlliu/art1-source",
+        demoURL: "https://github.com/thecarlliu/art1-demo"
+    },
+    {
+        id: 1,
+        title: "Tortellini",
+        description: "Sharp and effective",
+        stack: "Full Stack",
+        image: "https://via.placeholder.com/200x200",
+        sourceURL: "https://github.com/thecarlliu/art1-source",
+        demoURL: "https://github.com/thecarlliu/art1-demo"
+    },
+    {
+        id: 1,
+        title: "Fusilli",
+        description: "Warm, friendly, appetite-inducing",
+        stack: "Full Stack",
+        image: "https://via.placeholder.com/200x200",
+        sourceURL: "https://github.com/thecarlliu/art1-source",
+        demoURL: "https://github.com/thecarlliu/art1-demo"
+    },
+    {
+        id: 1,
+        title: "Linguine",
         description: "Amaze viewers with a clean and hip gallery.",
+        stack: "Front End",
         image: "https://via.placeholder.com/200x200",
         sourceURL: "https://github.com/thecarlliu/art1-source",
         demoURL: "https://github.com/thecarlliu/art1-demo"
@@ -22,6 +59,7 @@ const Templates = () => (
             <h2>Browse our collection of web templates</h2>
             <p>We hope you like pasta</p>
         </div>
+        <div className="grid-x medium-12">
         {
             templates.map((template) => (
                 <Template
@@ -29,6 +67,7 @@ const Templates = () => (
                     key={template.id}
                     title={template.title}
                     description={template.description}
+                    tech={template.stack}
                     image={template.image}
                     sourceURL={template.sourceURL}
                     demoURL={template.demoURL}
@@ -36,6 +75,7 @@ const Templates = () => (
             ))
 
         }
+        </div>
     </div>
 );
 

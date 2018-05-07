@@ -23,7 +23,7 @@
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
-    font-size: 1rem;
+    font-size: 10px;
     letter-spacing: 2px;
     transition: all 0.35s ease;
     -webkit-transform: translateZ(0);
@@ -70,3 +70,6 @@
     opacity: 0.25;
 }
 
+.template-card {
+    text-align: center;
+}

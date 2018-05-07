@@ -1,11 +1,8 @@
-//TODO: Update Template Component
-// Add style
-
 import React from "react";
 import "./Template.css"
 
 const Template = (props) => (
-    <div className="row large-up-4 small-up-2">
+    <div className="template-card cell medium-4 small-12">
         <div className="featured-image-block column">
             <img src={props.image} alt={props.title}/>
             <p className="text-center featured-image-block-title">{props.title}</p>
