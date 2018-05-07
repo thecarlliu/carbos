@@ -2,39 +2,36 @@
 //Update hrefs and add style
 
 import React from "react"
-import "./Footer.scss"
+import "./Footer.css"
 
 const Footer = () => (
-    <footer className="marketing-site-footer grid-x medium-12">
-        <div className="medium-unstack grid-x medium-12">
-            <div className="cell medium-6">
-                <h4 className="marketing-site-footer-name">Carbos</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.</p>
+    <footer className="footer grid-x medium-12">
+        <div className="footer-back-to-top cell medium-12">
+            <a href="#">Back to Top</a>
+        </div>
+        <div className="footer-content grid-x medium-12">
+            <div className="footer-description cell medium-4">
+                <h3>Carbos</h3>
+                <p>We create, display, demonstrate, and share web templates with the developer community. Let Carbos do the heavy-lifting for you.</p>
             </div>
-            <div className="cell medium-6">
-                <ul className="menu marketing-site-footer-menu-social simple grid-x medium-12">
-                    <li><a href="https://github.com/thecarlliu/carbos"><img src="https://via.placeholder.com/100x100"/></a></li>
-                    <li><a href="https://github.com/thecarlliu/carbos"><img src="https://via.placeholder.com/100x100"/></a></li>
-                    <li><a href="https://github.com/thecarlliu/carbos"><img src="https://via.placeholder.com/100x100"/></a></li>
-                    <li><a href="https://github.com/thecarlliu/carbos"><img src="https://via.placeholder.com/100x100"/></a></li>
-                </ul>
+            <div className="footer-technology cell medium-4">
+                <h5>Our Stack</h5>
+                <a href="https://www.mongodb.com/">MongoDB</a><br/>
+                <a href="https://expressjs.com/">Express</a><br/>
+                <a href="https://reactjs.org/">React</a><br/>
+                <a href="https://nodejs.org/en/">Node</a><br/>
+            </div>
+            <div className="footer-links cell medium-4">
+                <h5>Navigate</h5>
+                <a href="/">Home</a><br/>
+                <a href="/docs">Docs</a><br/>
+                <a href="/templates">Templates</a><br/>
+                <a href="/forum">Forum</a><br/>
+                <a href="/team">Team</a>
             </div>
         </div>
-        <div className="marketing-site-footer-bottom grid-x medium-12">
-            <div className="large-unstack align-middle grid-x medium-12">
-                <div className="cell medium-6">
-                    <p>&copy; 2018 Carbos</p>
-                </div>
-                <div className="cell medium-6">
-                    <ul className="menu marketing-site-footer-bottom-links">
-                        <li><a href="/">Back to Top</a></li>
-                        <li><a href="/docs">Docs</a></li>
-                        <li><a href="/templates">Templates</a></li>
-                        <li><a href="/forum">Forum</a></li>
-                        <li><a href="/team">Team</a></li>
-                    </ul>
-                </div>
-            </div>
+        <div className="footer-copyright cell medium-12">
+            &copy; Carbos 2018
         </div>
     </footer>
 );
