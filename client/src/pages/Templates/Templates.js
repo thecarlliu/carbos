@@ -5,7 +5,11 @@ import React from "react"
 import "./Templates.css"
 import Template from "../../components/Template";
 
+const farfalleIcon = require("../../images/farfalleIcon.png");
 const orzoIcon = require("../../images/orzoIcon.png");
+const tortelliniIcon = require("../../images/tortelliniIcon.png");
+const fusilliIcon = require("../../images/fusilliIcon.png");
+const linguineIcon = require("../../images/linguineIcon.png");
 
 const templates = [
     {
@@ -13,7 +17,7 @@ const templates = [
         title: "Farfalle",
         description: "Clean and hip",
         stack: "Full Stack",
-        image: "https://via.placeholder.com/200x200",
+        image: farfalleIcon,
         sourceURL: "https://github.com/thecarlliu/art1-source",
         demoURL: "https://github.com/thecarlliu/art1-demo"
     },
@@ -31,7 +35,7 @@ const templates = [
         title: "Tortellini",
         description: "Sharp and effective",
         stack: "Full Stack",
-        image: "https://via.placeholder.com/200x200",
+        image: tortelliniIcon,
         sourceURL: "https://github.com/thecarlliu/art1-source",
         demoURL: "https://github.com/thecarlliu/art1-demo"
     },
@@ -40,7 +44,7 @@ const templates = [
         title: "Fusilli",
         description: "Warm, friendly, appetite-inducing",
         stack: "Full Stack",
-        image: "https://via.placeholder.com/200x200",
+        image: fusilliIcon,
         sourceURL: "https://github.com/thecarlliu/art1-source",
         demoURL: "https://github.com/thecarlliu/art1-demo"
     },
@@ -49,7 +53,7 @@ const templates = [
         title: "Linguine",
         description: "Go with the flow",
         stack: "Front End",
-        image: "https://via.placeholder.com/200x200",
+        image: linguineIcon,
         sourceURL: "https://github.com/thecarlliu/art1-source",
         demoURL: "https://github.com/thecarlliu/art1-demo"
     }

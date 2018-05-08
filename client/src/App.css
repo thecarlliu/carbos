@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5 {
   padding: 30px;
 }
 
+.template-card-icon {
+  height: 150px;
+}
+
 .team-content {
   background-color: #ffc25e;
   color: #e91d50;
