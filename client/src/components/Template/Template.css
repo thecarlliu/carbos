@@ -8,18 +8,21 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1em;
-    color: #404040;
+    color: #e91d50;
 }
 
 .featured-image-block a:hover p {
-    color: #1779ba;
+    color: #cb1946;
 }
 
 
 .button-rounded-hover {
+    color: #e91d50;
+    background-color: #ffc25e;
     border: 0;
     border-radius: 10px;
     padding: 15px;
+    margin: 15px;
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
@@ -39,7 +42,7 @@
     left: 0px;
     right: 0px;
     border-radius: inherit;
-    background-color: #fefefe;
+    background-color: #e91d50;
     transition: all 0.3s;
     -webkit-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
@@ -52,14 +55,14 @@
     bottom: 0px;
     left: 0px;
     right: 0px;
-    border: 5px solid #115b8d;
+    border: 5px solid #e91d50;
     content: '';
     border-radius: inherit;
 }
 
 .button-rounded-hover:hover,
 .button-rounded-hover:focus {
-    background-color: #115b8d;
+    background-color: #e91d50;
 }
 
 .button-rounded-hover:hover:before,

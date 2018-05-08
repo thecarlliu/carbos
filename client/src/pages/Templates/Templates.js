@@ -47,7 +47,7 @@ const templates = [
     {
         id: 1,
         title: "Linguine",
-        description: "Amaze viewers with a clean and hip gallery.",
+        description: "Go with the flow",
         stack: "Front End",
         image: "https://via.placeholder.com/200x200",
         sourceURL: "https://github.com/thecarlliu/art1-source",
@@ -56,7 +56,7 @@ const templates = [
 ];
 
 const Templates = () => (
-    <div className="featured-image-block-grid">
+    <div className="template-content featured-image-block-grid">
         <div className="featured-image-block-grid-header small-10 medium-8 large-7 columns text-center">
             <h2>Browse our collection of web templates</h2>
             <p>We hope you like pasta</p>

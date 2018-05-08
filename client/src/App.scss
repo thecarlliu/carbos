@@ -49,10 +49,17 @@ h1, h2, h3, h4, h5 {
   color: $primaryHover;
 }
 
+.template-content {
+  background-color: $secondaryColor;
+  color: $primaryColor;
+  font-family: $generalFont;
+}
+
 .footer {
   color: $secondaryColor;
   background-color: $primaryColor;
   font-family: $generalFont;
+  padding: 10px;
 }
 
 .footer a {
@@ -61,4 +68,8 @@ h1, h2, h3, h4, h5 {
 
 .footer a:hover {
   color: $secondaryHover;
+}
+
+.footer .footer-content .footer-content-section {
+  padding: 10px;
 }
