@@ -56,8 +56,8 @@ const templates = [
 ];
 
 const Templates = () => (
-    <div className="template-content featured-image-block-grid">
-        <div className="featured-image-block-grid-header small-10 medium-8 large-7 columns text-center">
+    <div className="templates-content featured-image-block-grid">
+        <div className="templates-header featured-image-block-grid-header small-10 medium-8 large-7 columns text-center">
             <h2>Browse our collection of web templates</h2>
             <p>We hope you like pasta</p>
         </div>

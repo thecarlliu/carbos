@@ -42,10 +42,15 @@ h1, h2, h3, h4, h5 {
   color: #cb1946;
 }
 
-.template-content {
+.templates-content {
   background-color: #ffc25e;
   color: #e91d50;
   font-family: "Josefin Sans";
+  padding: 10px;
+}
+
+.templates-header {
+  padding: 30px;
 }
 
 .footer {
