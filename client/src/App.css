@@ -7,6 +7,15 @@ h1, h2, h3, h4, h5 {
   color: #ffc25e;
 }
 
+.nav-logo {
+  height: 50px;
+  width: auto;
+}
+
+.nav-links {
+  font-size: 20px;
+}
+
 .nav a:hover {
   color: #eca63a;
 }
