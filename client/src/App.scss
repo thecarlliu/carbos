@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5 {
   font-family: $generalFont;
 }
 
+.subheader {
+  color: $secondaryColor;
+}
+
 .fi {
   font-size: 80px;
   color: $primaryColor;

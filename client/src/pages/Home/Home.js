@@ -64,7 +64,7 @@ const Home = () => (
         <div className="marketing-site-hero cell small-12 medium-12">
             <div className="marketing-site-hero-content">
                 <h1>Welcome to Carbos</h1>
-                <p className="subheader">Ready to use, full-stack web templates.</p>
+                <p className="subheader">We create, display, demonstrate, and share web templates with the developer community.</p>
                 <a href="/docs" className="round button">learn more</a>
             </div>
         </div>
