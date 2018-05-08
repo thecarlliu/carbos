@@ -53,6 +53,17 @@ h1, h2, h3, h4, h5 {
   padding: 30px;
 }
 
+.team-content {
+  background-color: #ffc25e;
+  color: #e91d50;
+  font-family: "Josefin Sans";
+  padding: 10px;
+}
+
+.team-header {
+  padding: 30px;
+}
+
 .footer {
   color: #ffc25e;
   background-color: #e91d50;

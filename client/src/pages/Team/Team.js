@@ -36,7 +36,7 @@ const teamMembers = [
 
 const Team = () => (
 
-    <div className="team-page grid-x">
+    <div className="team-page team-content grid-x">
         <div className="team-header cell small-12 medium-12">
             <h1>Meet the Carbos Team</h1>
         </div>

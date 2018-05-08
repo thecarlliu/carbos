@@ -60,6 +60,17 @@ h1, h2, h3, h4, h5 {
   padding: 30px;
 }
 
+.team-content {
+  background-color: $secondaryColor;
+  color: $primaryColor;
+  font-family: $generalFont;
+  padding: 10px;
+}
+
+.team-header {
+  padding: 30px;
+}
+
 .footer {
   color: $secondaryColor;
   background-color: $primaryColor;
