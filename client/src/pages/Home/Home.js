@@ -59,7 +59,7 @@ const techStack = [
 ];
 
 const Home = () => (
-    <div className="grid-x">
+    <div className="home-content grid-x medium-12">
 {/*hero*/}
         <div className="marketing-site-hero cell small-12 medium-12">
             <div className="marketing-site-hero-content">

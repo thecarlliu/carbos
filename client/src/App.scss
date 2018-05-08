@@ -1,7 +1,64 @@
-$primaryColor:#56c9ed;
-$secondaryColor:#9d5929;
+$primaryColor: #e91d50;
+$primaryHover: #cb1946;
+$secondaryColor: #ffc25e;
+$secondaryHover: #eca63a;
+$headerFont: "Kobenhavn Sans";
+$generalFont: "Josefin Sans";
 
-.nav .top-bar{
+h1, h2, h3, h4, h5 {
+  font-family: $headerFont;
+}
+
+.nav {
+  font-family: $headerFont;
+  color: $secondaryColor;
+}
+
+.nav a:hover {
+  color: $secondaryHover;
+}
+
+.topbar-responsive .menu a {
+   color: $secondaryColor;
+ }
+
+.topbar-responsive .menu a:hover {
+  color: $secondaryHover;
+}
+
+.topbar-responsive .topbar-responsive-logo {
+  color: $secondaryColor;
+}
+
+.home-content {
   color: $primaryColor;
   background-color: $secondaryColor;
+  font-family: $generalFont;
+}
+
+.fi {
+  font-size: 80px;
+  color: $primaryColor;
+}
+
+.tech-section a {
+  color: $primaryColor;
+}
+
+.tech-section a:hover {
+  color: $primaryHover;
+}
+
+.footer {
+  color: $secondaryColor;
+  background-color: $primaryColor;
+  font-family: $generalFont;
+}
+
+.footer a {
+  color: $secondaryColor;
+}
+
+.footer a:hover {
+  color: $secondaryHover;
 }

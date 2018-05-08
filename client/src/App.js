@@ -7,6 +7,7 @@ import Docs from "./pages/Docs";
 import Templates from "./pages/Templates";
 import Forum from "./pages/Forum";
 import Team from "./pages/Team";
+import "./App.css";
 
 const App = () => (
 

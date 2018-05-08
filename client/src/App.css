@@ -1,4 +1,57 @@
-.nav .top-bar {
-  color: #56c9ed;
-  background-color: #9d5929;
+h1, h2, h3, h4, h5 {
+  font-family: "Kobenhavn Sans";
+}
+
+.nav {
+  font-family: "Kobenhavn Sans";
+  color: #ffc25e;
+}
+
+.nav a:hover {
+  color: #eca63a;
+}
+
+.topbar-responsive .menu a {
+  color: #ffc25e;
+}
+
+.topbar-responsive .menu a:hover {
+  color: #eca63a;
+}
+
+.topbar-responsive .topbar-responsive-logo {
+  color: #ffc25e;
+}
+
+.home-content {
+  color: #e91d50;
+  background-color: #ffc25e;
+  font-family: "Josefin Sans";
+}
+
+.fi {
+  font-size: 80px;
+  color: #e91d50;
+}
+
+.tech-section a {
+  color: #e91d50;
+}
+
+.tech-section a:hover {
+  color: #cb1946;
+}
+
+.footer {
+  color: #ffc25e;
+  background-color: #e91d50;
+  font-family: "Josefin Sans";
+}
+
+.footer a {
+  color: #ffc25e;
+}
+
+.footer a:hover {
+  color: #eca63a;
 }
