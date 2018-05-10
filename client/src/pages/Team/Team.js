@@ -1,11 +1,11 @@
 import React from "react";
 import "./Team.css";
 
-const carlImg = require("../../images/carlImg.jpg");
-const sandyImg = require("../../images/sandyImg.jpg");
-const derekImg = require("../../images/derekImg.jpg");
-const paulImg = require("../../images/paulImg.jpg");
-const kevinImg = require("../../images/kevinImg.jpg");
+const carlImg = require("../../images/carlImg.png");
+const sandyImg = require("../../images/sandyImg.png");
+const derekImg = require("../../images/derekImg.png");
+const paulImg = require("../../images/paulImg.png");
+const kevinImg = require("../../images/kevinImg.png");
 
 const teamMembers = [
     {
