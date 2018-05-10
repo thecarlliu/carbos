@@ -34,14 +34,17 @@ class Forum extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Forum</h1>
+            <div className="forum-content">
+                <h3 className="forum-content-header">Forum</h3>
                 <div>
 
                     {/*News Thread*/}
                     <ul className="accordion" data-accordion data-allow-all-closed="true">
                         <li className="accordion-item" data-accordion-item>
-                            <a href="#" className="accordion-title"><h2>News</h2><h3>Carbos Updates</h3></a>
+                            <a href="#" className="accordion-title">
+                                <h4>News</h4>
+                                <h5>Carbos Updates</h5>
+                            </a>
                             <div className="accordion-content" data-tab-content>
                                 <div className="callout secondary">
                                     <p>Carbos is still under development.</p>
@@ -53,7 +56,9 @@ class Forum extends React.Component {
                     {/*General Discussion*/}
                     <ul className="accordion" data-accordion data-allow-all-closed="true">
                         <li className="accordion-item" data-accordion-item>
-                            <a href="#" className="accordion-title"><h2>General Discussion</h2><h3>Discuss Carbos</h3>
+                            <a href="#" className="accordion-title">
+                                <h4>General Discussion</h4>
+                                <h5>Discuss Carbos</h5>
                             </a>
                             <div className="accordion-content" data-tab-content>
                                 {
@@ -67,20 +72,20 @@ class Forum extends React.Component {
                                         />
                                     ))
                                 }
+                                Comment
+                                <input type="text"></input>
+                                <a href="#" className="button">Submit</a>
                             </div>
-
-                            Comment
-                            <input type="text"></input>
-                            <a href="#" className="button">Submit</a>
                         </li>
                     </ul>
 
                     {/*Technical Support*/}
                     <ul className="accordion" data-accordion data-allow-all-closed="true">
                         <li className="accordion-item" data-accordion-item>
-                            <a href="#" className="accordion-title"><h2>Technical Support</h2><h3>Report technical
-                                issues
-                                here</h3></a>
+                            <a href="#" className="accordion-title">
+                                <h4>Technical Support</h4>
+                                <h5>Report technical issues here</h5>
+                            </a>
                             <div className="accordion-content" data-tab-content>
                                 {
                                     this.state.support.map((post) => (
@@ -93,11 +98,10 @@ class Forum extends React.Component {
                                         />
                                     ))
                                 }
+                                Comment
+                                <input type="text"></input>
+                                <a href="#" className="button">Submit</a>
                             </div>
-
-                            Comment
-                            <input type="text"></input>
-                            <a href="#" className="button">Submit</a>
                         </li>
                     </ul>
 

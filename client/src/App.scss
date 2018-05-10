@@ -76,6 +76,26 @@ h1, h2, h3, h4, h5 {
   height: 150px;
 }
 
+.forum-content {
+  background-color: $secondaryColor;
+}
+
+.accordion, .accordion:hover, .accordion-item, .accordion-item:hover {
+  background-color: $secondaryColor;
+}
+
+.forum-content-header, .accordion-title, .accordion-title:hover {
+  color: $primaryColor;
+}
+
+.forum-content-header {
+  padding-left: 20px;
+}
+
+.accordion-content {
+  color: $secondaryColor;
+}
+
 .team-content {
   background-color: $secondaryColor;
   color: $primaryColor;
