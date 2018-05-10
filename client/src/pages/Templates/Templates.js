@@ -28,7 +28,7 @@ const templates = [
         stack: "Front End",
         image: orzoIcon,
         sourceURL: "https://github.com/thecarlliu/orzo",
-        demoURL: "https://carbos.orzo.herokuapp.com"
+        demoURL: "https://powerful-thicket-92856.herokuapp.com"
     },
     {
         id: 1,
