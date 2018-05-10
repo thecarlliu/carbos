@@ -18,8 +18,8 @@ const templates = [
         description: "Clean and hip",
         stack: "Full Stack",
         image: farfalleIcon,
-        sourceURL: "https://github.com/thecarlliu/art1-source",
-        demoURL: "https://github.com/thecarlliu/art1-demo"
+        sourceURL: "https://github.com/thecarlliu/farfalle",
+        demoURL: "https://carbos.farfalle.herokuapp.com"
     },
     {
         id: 1,
@@ -27,8 +27,8 @@ const templates = [
         description: "Simple and playful",
         stack: "Front End",
         image: orzoIcon,
-        sourceURL: "https://github.com/thecarlliu/art1-source",
-        demoURL: "https://github.com/thecarlliu/art1-demo"
+        sourceURL: "https://github.com/thecarlliu/orzo",
+        demoURL: "https://carbos.orzo.herokuapp.com"
     },
     {
         id: 1,
@@ -36,8 +36,8 @@ const templates = [
         description: "Sharp and effective",
         stack: "Full Stack",
         image: tortelliniIcon,
-        sourceURL: "https://github.com/thecarlliu/art1-source",
-        demoURL: "https://github.com/thecarlliu/art1-demo"
+        sourceURL: "https://github.com/thecarlliu/tortellini",
+        demoURL: "https://carbos.tortellini.herokuapp.com"
     },
     {
         id: 1,
@@ -45,8 +45,8 @@ const templates = [
         description: "Warm, friendly, appetite-inducing",
         stack: "Full Stack",
         image: fusilliIcon,
-        sourceURL: "https://github.com/thecarlliu/art1-source",
-        demoURL: "https://github.com/thecarlliu/art1-demo"
+        sourceURL: "https://github.com/thecarlliu/fusilli",
+        demoURL: "https://carbos.fusilli.herokuapp.com"
     },
     {
         id: 1,
@@ -54,8 +54,8 @@ const templates = [
         description: "Go with the flow",
         stack: "Front End",
         image: linguineIcon,
-        sourceURL: "https://github.com/thecarlliu/art1-source",
-        demoURL: "https://github.com/thecarlliu/art1-demo"
+        sourceURL: "https://github.com/thecarlliu/linguine",
+        demoURL: "https://carbos.linguine.herokuapp.com"
     }
 ];
 
