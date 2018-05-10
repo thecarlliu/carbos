@@ -1,7 +1,3 @@
-//TODO: Fix Forum Page
-//Currently says that this.state.general is not an array, which has something to do with the res.data that is coming in from our api route.
-//Also will need to add more functions to include the posting functionality.
-
 import React from "react";
 import "./Forum.css";
 import Post from "../../components/Post";
@@ -23,7 +19,7 @@ class Forum extends React.Component {
     loadGeneral = () => {
         api.getGeneral()
             .then(res =>
-                this.setState({ general: res.data})
+                this.setState({ general: Array.from(res.data)})
             )
             .catch(err => console.log(err));
     };
@@ -31,7 +27,7 @@ class Forum extends React.Component {
     loadSupport = () => {
         api.getSupport()
             .then(res =>
-                this.setState({ support: res.data})
+                this.setState({ support: Array.from(res.data)})
             )
             .catch(err => console.log(err));
     };
@@ -61,8 +57,7 @@ class Forum extends React.Component {
                             </a>
                             <div className="accordion-content" data-tab-content>
                                 {
-                                    this.state.general.length>0 &&
-                                        this.state.general.map((post) => (
+                                    this.state.general.map((post) => (
                                         <Post
                                             id={post._id}
                                             key={post._id}
@@ -88,7 +83,6 @@ class Forum extends React.Component {
                                 here</h3></a>
                             <div className="accordion-content" data-tab-content>
                                 {
-                                    this.state.support.length > 0 &&
                                     this.state.support.map((post) => (
                                         <Post
                                             id={post._id}

@@ -11,8 +11,6 @@ mongoose.connect(
 
 const generalSeed = [
     {
-        id: 1,
-        key: 1,
         text: "Test",
         user: "Admin",
         date: "Today"
@@ -20,8 +18,6 @@ const generalSeed = [
 ];
 const supportSeed = [
     {
-        id: 1,
-        key: 1,
         text: "Test",
         user: "Admin",
         date: "Today"
