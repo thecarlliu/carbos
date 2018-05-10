@@ -12,31 +12,31 @@ const teamMembers = [
         name: "Carl Liu",
         image: carlImg,
         role: "Student at Macalester College - Project Lead",
-        description: "blah blah"
+        description: "I chose to study computer science and dive into the world of web development because I wanted to combine my artistic abilities with my problem-solving skills."
     },
     {
         name: "Sandy McElfresh",
         image: sandyImg,
         role: "SCRUM Master - React Developer",
-        description: "blah blah"
+        description: "I am a certified IT Program/Project Manager who decided to take the full-stack developer program to gain technical skills in web applications. In my spare time, I enjoy golfing, biking, and just grillin’ and chillin’ with friends and neighbors."
     },
     {
         name: "Paul Prokosch",
         image: paulImg,
-        role: "Sr. Manager QA - React Developer",
-        description: "blah blah"
+        role: "Sr. QA Manager - React Developer",
+        description: "I have been a QA leader for close to 20 years. I took the full-stack class to learn JavaScript for my QA endeavors. In my spare time I love playing bocce ball, spending time with friends, walking my dog and going to see live music."
     },
     {
         name: "Derek Jacobson",
         image: derekImg,
         role: "SEO Consultant - React Developer",
-        description: "blah blah"
+        description: "I am a digital marketer with a focus on technical SEO for eCommerce businesses that are looking to improve site functionality and increase online visibility."
     },
     {
         name: "Kevin Hinkel",
         image: kevinImg,
         role: "Graphic Designer - React Developer",
-        description: "blah blah"
+        description: "I am expanding my design career from print to web, with 10 years of experience in fast paced work environments that demand speed, accuracy and adaptability."
     }
 ];
 
