@@ -37,7 +37,7 @@ const templates = [
         stack: "Full Stack",
         image: tortelliniIcon,
         sourceURL: "https://github.com/thecarlliu/tortellini",
-        demoURL: "https://carbos.tortellini.herokuapp.com"
+        demoURL: "https://pure-sands-99900.herokuapp.com"
     },
     {
         id: 1,
@@ -46,7 +46,7 @@ const templates = [
         stack: "Full Stack",
         image: fusilliIcon,
         sourceURL: "https://github.com/thecarlliu/fusilli",
-        demoURL: "https://carbos.fusilli.herokuapp.com"
+        demoURL: "https://limitless-mesa-55111.herokuapp.com"
     },
     {
         id: 1,

@@ -32,6 +32,10 @@ class Forum extends React.Component {
             .catch(err => console.log(err));
     };
 
+    submitPost = () => {
+
+    };
+
     render() {
         return (
             <div className="forum-content">
@@ -74,7 +78,7 @@ class Forum extends React.Component {
                                 }
                                 Comment
                                 <input type="text"></input>
-                                <a href="#" className="button">Submit</a>
+                                <a href="#" onClick={this.submitPost} className="button">Submit</a>
                             </div>
                         </li>
                     </ul>
@@ -100,7 +104,7 @@ class Forum extends React.Component {
                                 }
                                 Comment
                                 <input type="text"></input>
-                                <a href="#" className="button">Submit</a>
+                                <a href="#" onClick={this.submitPost} className="button">Submit</a>
                             </div>
                         </li>
                     </ul>

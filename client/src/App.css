@@ -101,6 +101,12 @@ h1, h2, h3, h4, h5 {
   padding: 30px;
 }
 
+.team-member-img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
 .footer {
   color: #ffc25e;
   background-color: #e91d50;

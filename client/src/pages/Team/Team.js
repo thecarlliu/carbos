@@ -1,35 +1,41 @@
 import React from "react";
 import "./Team.css";
 
+const carlImg = require("../../images/carlImg.jpg");
+const sandyImg = require("../../images/sandyImg.jpg");
+const derekImg = require("../../images/derekImg.jpg");
+const paulImg = require("../../images/paulImg.jpg");
+const kevinImg = require("../../images/kevinImg.jpg");
+
 const teamMembers = [
     {
         name: "Carl Liu",
-        image: "https://via.placeholder.com/100x100",
-        role: "Project Lead",
+        image: carlImg,
+        role: "Student at Macalester College - Project Lead",
         description: "blah blah"
     },
     {
         name: "Sandy McElfresh",
-        image: "https://via.placeholder.com/100x100",
-        role: "Database Manager",
+        image: sandyImg,
+        role: "SCRUM Master - React Developer",
         description: "blah blah"
     },
     {
         name: "Paul Prokosch",
-        image: "https://via.placeholder.com/100x100",
-        role: "Tester",
+        image: paulImg,
+        role: "Sr. Manager QA - React Developer",
         description: "blah blah"
     },
     {
         name: "Derek Jacobson",
-        image: "https://via.placeholder.com/100x100",
-        role: "Developer",
+        image: derekImg,
+        role: "SEO Consultant - React Developer",
         description: "blah blah"
     },
     {
         name: "Kevin Hinkel",
-        image: "https://via.placeholder.com/100x100",
-        role: "Graphic Artist",
+        image: kevinImg,
+        role: "Graphic Designer - React Developer",
         description: "blah blah"
     }
 ];
